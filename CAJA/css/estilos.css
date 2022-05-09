@@ -1,0 +1,293 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                margin: 100px;
+                margin-left: 280px;
+                margin-bottom: 100px;
+                background-color: #545050;
+            }
+            
+            .container {
+                margin-right: 9px;
+                display: flex;
+                display: none;
+            }
+            
+            .container2 {
+                margin-right: 9px;
+                display: flex;
+                display: block;
+            }
+            
+            .container3 {
+                margin-right: 9px;
+                display: flex;
+                display: none;
+            }
+            
+            .container4 {
+                margin-right: 9px;
+                display: flex;
+                display: none;
+            }
+            
+            .container5 {
+                margin-right: 9px;
+                display: flex;
+                display: none;
+            }
+            
+            .img0 {
+                height: 600px;
+                width: 800px;
+                margin-top: 6px;
+                margin-right: 0px;
+                display: flex;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .c1 {
+                height: 100px;
+                width: 100px;
+                margin-top: -100px;
+                margin-bottom: 100px;
+            }
+            
+            .cont {
+                height: 50px;
+                width: 300px;
+                margin-left: 170px;
+                margin-top: 50px;
+                border-color: 3px solid rgb(255, 22, 22);
+                text-align: center;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            h4 {
+                color: rgb(56, 34, 255);
+                font-size: 2em;
+                font: 'arial';
+                position: absolute;
+            }
+            
+            .text1 {
+                top: 100px;
+                right: 620px;
+                color: rgb(204, 250, 0);
+                font-size: 1.5em;
+            }
+            
+            .text2 {
+                top: 200px;
+                right: 620px;
+                color: rgb(0, 255, 221);
+                font-size: 1.5em;
+            }
+            
+            .text3 {
+                top: 80px;
+                right: 690px;
+                color: rgb(231, 8, 8);
+                font-size: 1.5em;
+            }
+            
+            .text4 {
+                top: 80px;
+                right: 690px;
+                color: rgb(0, 15, 19);
+                font-size: 1.5em;
+            }
+            
+            .text5 {
+                top: 80px;
+                right: 690px;
+                color: rgb(20, 92, 112);
+                font-size: 1.5em;
+            }
+            
+            .text6 {
+                top: 150px;
+                right: 520px;
+                color: rgb(85, 40, 40);
+                font-size: 12px;
+            }
+            
+            .text7 {
+                top: 190px;
+                right: 568px;
+                color: rgb(0, 0, 0);
+                font-size: 10px;
+            }
+            
+            .text8 {
+                top: 210px;
+                right: 520px;
+                color: rgb(0, 0, 0);
+                font-size: 10px;
+            }
+            
+            .text9 {
+                top: 230px;
+                right: 500px;
+                color: rgb(0, 0, 0);
+                font-size: 10px;
+            }
+            
+            .boton {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                top: 280px;
+                right: 550px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .boton1 {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+                right: 550px;
+                margin-top: -400px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .boton2 {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+                left: 440px;
+                margin-top: -400px;
+                background-color: rgb(255, 255, 255);
+                font-size: 17px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .boton3 {
+                width: 150px;
+                height: 50px;
+                position: absolute;
+                margin-left: 160px;
+                top: 280px;
+                background-color: rgb(255, 0, 0);
+                color: white;
+                font-size: 17px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .lol {
+                width: 260px;
+                height: 30px;
+                position: absolute;
+                bottom: 370px;
+                left: 470px;
+                display: block;
+            }
+            
+            .aceptar {
+                width: 56px;
+                height: 20px;
+                font-size: 10px;
+                background-color: #18ee04;
+                margin-left: 380px;
+                margin-top: 250px;
+                display: block;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .volver1 {
+                width: 200px;
+                height: 20px;
+                font-size: 8px;
+                background-color: #ee0404;
+                COLOR: white;
+                margin-left: -450px;
+                margin-top: 250px;
+                display: block;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .volver2 {
+                width: 200px;
+                height: 20px;
+                font-size: 8px;
+                background-color: #ee0404;
+                COLOR: white;
+                margin-top: -250px;
+                margin-left: 100px;
+                display: block;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .volver3 {
+                width: 200px;
+                height: 20px;
+                font-size: 8px;
+                background-color: #ee0404;
+                COLOR: white;
+                margin-top: 250px;
+                margin-left: 0px;
+                display: block;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .but1 {
+                position: absolute;
+                margin-top: -450px;
+                margin-left: 100px;
+                width: 50px;
+                height: 30px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .but2 {
+                position: absolute;
+                margin-top: -410px;
+                margin-left: 100px;
+                width: 50px;
+                height: 30px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .but3 {
+                position: absolute;
+                margin-top: -370px;
+                margin-left: 100px;
+                width: 50px;
+                height: 30px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .but4 {
+                position: absolute;
+                margin-top: -330px;
+                margin-left: 100px;
+                width: 50px;
+                height: 30px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .but5 {
+                position: absolute;
+                margin-top: -450px;
+                margin-left: 200px;
+                width: 50px;
+                height: 30px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .but6 {
+                position: absolute;
+                margin-top: -410px;
+                margin-left: 200px;
+                width: 50px;
+                height: 30px;
+                box-shadow: -8px -8px 15px rgba(255, 255, 255, 255), 10px 10px 10px rgba(0, 0, 0, 0.1), inset -8px -8px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+            }

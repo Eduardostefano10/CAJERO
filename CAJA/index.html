@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.freepik.com/vector-gratis/atm-cajero-automatico_160167-1.jpg">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Cajero automatico</title>
+</head>
+
+<body>
+    <div class="container2" id="container2">
+
+        <div class="c1">
+            <h4 class="text2">&nbspINGRESAR&nbspCLAVE </h4>
+            <img class="img0" src="img/Trabajo del cajero.png">
+
+        </div>
+        <input type="password" class="cont" id="password" maxlength="4" required="" onclick="ingresar()"><br>
+    </div>
+
+
+    <div class="container" id="container">
+
+        <div class="c1">
+            <h4 class="text1">&nbspMenu&nbspde Opciones</h4>
+            <img class="img0" src="img/Trabajo del cajero.png">
+            <button class="boton" onclick="consultas()">Consultas</button>
+            <button class="boton1" onclick="depositos()">Depositos</button>
+            <button class=" boton2 " onclick="retiros()">Retiros</button>
+
+            <button class=" boton3 " id="salir " onclick="salir() ">Salir</button>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container3" id="container3">
+
+        <div class="c1 ">
+            <h4 class="text3 ">&nbspRetiros&nbsp </h4>
+            <img class="img0 " src="img/Trabajo del cajero.png ">
+
+        </div>
+        <input type="number" class="lol" id="lol" maxlength=" 4 " onclick="retiros()" placeholder="Solo puedes ingresar maximo s/.2,000.0 "><br>
+        <button class="aceptar " id="aceptar" onclick="alerta_aceptar()">ACEPTAR</button>
+        <button class="volver1 " id="volver1" onclick="volver() ">&nbspREGRESAR&nbspA&nbspMENU&nbspPRINCIPAL</button>
+    </div>
+
+
+
+    <div class="container5" id="container5">
+
+        <div class="c1 ">
+            <h4 class="text5">&nbspConsultas&nbsp</h4>
+            <h4 class="text6">Si vas a consultar el saldo en un Cajero Electrónico o Multifuncional, sigue estos pasos.</h4><br>
+            <h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h4>
+            <h4 class="text7">1.Acércate a un Cajero electrónico o Multifuncional e inserta tu Tarjeta Débito en la ranura.</h4>
+            <h4 class="text8">2.Luego elige el tipo de cuenta a consultar y selecciona Saldo Cuenta Corriente o Saldo Cuenta Ahorros.</h4>
+            <h4 class="text9">3.Ahora confirma si quieres conocer el costo de la operación, de lo contrario selecciona Continuar operación.</h4>
+            <img class="img0 " src="img/Trabajo del cajero.png">
+        </div>
+        <button class="volver3 " id="volver3" onclick="volver() ">&nbspREGRESAR&nbspA&nbspMENU&nbspPRINCIPAL</button>
+    </div>
+
+
+
+
+    <div class="container4" id="container4">
+
+        <div class="c1 ">
+            <h4 class="text4 ">&nbspDepositos&nbsp </h4>
+            <img class="img0 " src="img/Trabajo del cajero.png ">
+            <button Class=" but1 " onclick="alerta() ">S/.100</button>
+            <button class=" but2 " onclick="alerta2() ">S/.200</button>
+            <button class="but3 " onclick="alerta3() ">S/.300</button>
+            <button class="but4 " onclick="alerta4() ">S/.400</button>
+            <button class="but5 " onclick="alerta5() ">S/.500</button>
+            <button class="but6 " onclick="alerta6() ">S/.1000</button>
+            <button class="volver2 " id="volver2 " onclick="volver() ">&nbspREGRESAR&nbspA&nbspMENU&nbspPRINCIPAL</button>
+
+
+        </div>
+
+
+
+        <script src="js/main.js "></script>
+</body>
+
+</html>
